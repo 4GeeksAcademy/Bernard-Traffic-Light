@@ -1,12 +1,59 @@
+.red-light {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 
-/* 
+.yellow-light {
+    background-color: rgb(255, 213, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.green-light {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 
-*/
+.light-body {
+    background-color: black;
+    height: 350px;
+    width:125px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(53, 53, 53);
+    border-top: solid 2px rgb(130, 129, 129);
+    border-right: solid 2px rgb(130, 129, 129);
+    margin-top: 60px;
+}
+
+
+.light-pole {
+    background-color: silver;
+    height: 300px;
+    width:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(53, 53, 53);
+    border-right: solid 1px rgb(130, 129, 129);
+   
+    
+}
+
+.selected-green {
+    box-shadow: 0px 0px 50px 15px rgb(195, 255, 195);
+}
+
+.selected-yellow {
+    box-shadow: 0px 0px 50px 15px rgb(255, 255, 178);
+}
+
+.selected-red {
+    box-shadow: 0px 0px 50px 15px rgb(255, 195, 195);
+}
+
+
+
